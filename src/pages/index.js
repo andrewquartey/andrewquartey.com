@@ -7,6 +7,10 @@ import pic02 from '../assets/images/pic02.jpg'
 import pic03 from '../assets/images/pic03.jpg'
 import pic04 from '../assets/images/pic04.jpg'
 
+import completeFarmer from '../assets/images/completefarmer.jpg'
+import gizzeo from '../assets/images/gizzeo.png'
+import sfa from '../assets/images/sfa.jpg'
+
 class Homepage extends React.Component {
     render() {
         const siteTitle = this.props.data.site.siteMetadata.title;
@@ -58,33 +62,33 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-12">
                             <header className="major">
-                                <h2>Adipiscing amet consequat</h2>
+                                <h2>Projects</h2>
                             </header>
-                            <p>Ante nunc accumsan et aclacus nascetur ac ante amet sapien sed.</p>
+                            <p>These are some of the projects I'm working currently working on.</p>
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={pic02} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={completeFarmer} alt="" /></span>
+                            <h3>Complete Farmer</h3>
+                            <p>Complete Farmer is a farm management and crowdfarming platform that enables users to farm remotely.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="https://www.completefarmer.com" target="_blank" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic03} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={sfa} alt="" /></span>
+                            <h3>Scholarships For Africa</h3>
+                            <p>Scholarships For Africa is an online platform that connects african students to scholarship opportunities abroad.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="http://www.scholarshipsforafrica.org" target="_blank" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={pic04} alt="" /></span>
-                            <h3>Magna feugiat lorem</h3>
-                            <p>Adipiscing a commodo ante nunc magna lorem et interdum mi ante nunc lobortis non amet vis sed volutpat et nascetur.</p>
+                            <span className="image fit"><img src={gizzeo} alt="" /></span>
+                            <h3>Gizzeo Biodigester</h3>
+                            <p>A portable device that converts kitchen organic waste to methane gas for cooking in homes.</p>
                             <ul className="actions">
-                                <li><a href="#" className="button">More</a></li>
+                                <li><a href="http://www.gizzeo.com" target="_blank" className="button">More</a></li>
                             </ul>
                         </div>
 
