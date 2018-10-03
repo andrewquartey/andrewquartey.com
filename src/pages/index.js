@@ -2,14 +2,13 @@ import React from "react";
 import Link from "gatsby-link";
 import Helmet from "react-helmet";
 
-import pic01 from '../assets/images/pic01.jpg'
-import pic02 from '../assets/images/pic02.jpg'
-import pic03 from '../assets/images/pic03.jpg'
-import pic04 from '../assets/images/pic04.jpg'
+import impact from '../assets/images/impact.jpg'
 
 import completeFarmer from '../assets/images/completefarmer.jpg'
 import gizzeo from '../assets/images/gizzeo.png'
 import sfa from '../assets/images/sfa.jpg'
+
+import resume from '../assets/pdfs/resume.pdf'
 
 class Homepage extends React.Component {
     render() {
@@ -23,13 +22,12 @@ class Homepage extends React.Component {
                     <div className="grid-wrapper">
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>Impact</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan et interdum mi ante adipiscing. A nunc lobortis non nisl amet vis sed volutpat aclacus nascetur ac non. Lorem curae et ante amet sapien sed tempus adipiscing id accumsan.</p>
+                            <p>I am also an agent of change in my local community and and strong advocate of the SDGs. I am involed in a number social projects aimed at driving change in young people.</p>
                         </div>
                         <div className="col-6">
-                            <span className="image fit"><img src={pic01} alt="" /></span>
+                            <span className="image fit"><img src={impact} alt="" /></span>
                         </div>
                     </div>
                 </section>
@@ -48,15 +46,16 @@ class Homepage extends React.Component {
                         </div>
                         <div className="col-6">
                             <header className="major">
-                                <h2>Lorem ipsum dolor adipiscing<br />
-                                amet dolor consequat</h2>
+                                <h2>Skills</h2>
                             </header>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
+                            <p>Experienced Fullstack Engineer with a demonstrated history of working in the tech industry. 
+                            Skilled in ReactJS, NodeJS, Python, DevOps & IoT. Strong business development professional 
+                            with a Bsc in Computer Engineering from Kwame Nkrumah' University of Science and Technology, Kumasi.</p>
                             <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
                             <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
                         </div>
                     </div>
-                </section>
+                </section> 
 
                 <section id="three" className="main style1 special">
                     <div className="grid-wrapper">
@@ -98,12 +97,10 @@ class Homepage extends React.Component {
                 <section id="four" className="main style2 special">
                     <div className="container">
                         <header className="major">
-                            <h2>Ipsum feugiat consequat?</h2>
+                            <h2>Resume</h2>
                         </header>
-                        <p>Sed lacus nascetur ac ante amet sapien.</p>
                         <ul className="actions uniform">
-                            <li><a href="#" className="button special">Sign Up</a></li>
-                            <li><a href="#" className="button">Learn More</a></li>
+                            <li><a href={resume} className="button special">My Resume</a></li>
                         </ul>
                     </div>
                 </section>
