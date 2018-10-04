@@ -38,21 +38,15 @@ class Homepage extends React.Component {
                             <ul className="major-icons">
                                 <li><span className="icon style1 major fa-code"></span></li>
                                 <li><span className="icon style2 major fa-bolt"></span></li>
-                                <li><span className="icon style3 major fa-camera-retro"></span></li>
-                                <li><span className="icon style4 major fa-cog"></span></li>
-                                <li><span className="icon style5 major fa-desktop"></span></li>
-                                <li><span className="icon style6 major fa-calendar"></span></li>
                             </ul>
                         </div>
                         <div className="col-6">
                             <header className="major">
                                 <h2>Skills</h2>
                             </header>
-                            <p>Experienced Fullstack Engineer with a demonstrated history of working in the tech industry. 
-                            Skilled in ReactJS, NodeJS, Python, DevOps & IoT. Strong business development professional 
+                            <p>I am Fullstack Engineer with a demonstrated history of working in the tech industry. 
+                            Skilled in ReactJS, NodeJS, Python, DevOps & IoT and a strong business development professional 
                             with a Bsc in Computer Engineering from Kwame Nkrumah' University of Science and Technology, Kumasi.</p>
-                            <p>Blandit faucibus proin. Ac aliquam integer adipiscing enim non praesent vis commodo nunc phasellus cubilia ac risus accumsan. Accumsan blandit. Lobortis phasellus non lobortis dit varius mi varius accumsan lobortis. Blandit ante aliquam lacinia lorem lobortis semper morbi col faucibus vitae integer placerat accumsan orci eu mi odio tempus adipiscing adipiscing adipiscing curae consequat feugiat etiam dolore.</p>
-                            <p>Adipiscing a commodo ante nunc accumsan interdum mi ante adipiscing. A nunc lobortis non nisl amet vis volutpat aclacus nascetur ac non. Lorem curae eu ante amet sapien in tempus ac. Adipiscing id accumsan adipiscing ipsum.</p>
                         </div>
                     </div>
                 </section> 
