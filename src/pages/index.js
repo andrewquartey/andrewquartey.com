@@ -24,7 +24,7 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Impact</h2>
                             </header>
-                            <p>I am also an agent of change in my local community and and strong advocate of the SDGs. I am involed in a number social projects aimed at driving change in young people.</p>
+                            <p>I am also an agent of change in my local community and a strong advocate of the SDGs. I am involed in a number social projects aimed at driving change in young people.</p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={impact} alt="" /></span>
