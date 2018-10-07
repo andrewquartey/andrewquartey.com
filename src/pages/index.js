@@ -24,7 +24,7 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Impact</h2>
                             </header>
-                            <p>I am also an agent of change in my local community and a strong advocate of the SDGs. I am involed in a number social projects aimed at driving change in young people.</p>
+                            <p>I am also an agent of change in my local community and a strong advocate of the SDGs. I am involved in a number social projects aimed at driving positive change in young people.</p>
                         </div>
                         <div className="col-6">
                             <span className="image fit"><img src={impact} alt="" /></span>
@@ -46,7 +46,7 @@ class Homepage extends React.Component {
                             </header>
                             <p>I am Fullstack Engineer with a demonstrated history of working in the tech industry. 
                             Skilled in ReactJS, NodeJS, Python, DevOps & IoT and a strong business development professional 
-                            with a Bsc in Computer Engineering from Kwame Nkrumah' University of Science and Technology, Kumasi.</p>
+                            with a BSc in Computer Engineering from Kwame Nkrumah University of Science and Technology, Kumasi, Ghana.</p>
                         </div>
                     </div>
                 </section> 
@@ -57,7 +57,7 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Projects</h2>
                             </header>
-                            <p>These are some of the projects I'm working currently working on.</p>
+                            <p>These are some of the projects I'm currently working on.</p>
                         </div>
 
                         <div className="col-4">
