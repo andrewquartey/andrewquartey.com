@@ -5,3 +5,6 @@ public
 .intermediate-representation/
 .cache/
 yarn.lock
+amplify/
+.amplifyrc
+src/aws-exports.js
