@@ -4,9 +4,9 @@ import Helmet from "react-helmet";
 
 import impact from '../assets/images/impact.jpg'
 
-import completeFarmer from '../assets/images/completefarmer.jpg'
-import gizzeo from '../assets/images/gizzeo.png'
-import sfa from '../assets/images/sfa.jpg'
+import nas from '../assets/images/nas.png'
+import ohcs from '../assets/images/ohcs.png'
+import thon from '../assets/images/thon.png'
 
 import resume from '../assets/pdfs/resume.pdf'
 
@@ -57,31 +57,31 @@ class Homepage extends React.Component {
                             <header className="major">
                                 <h2>Projects</h2>
                             </header>
-                            <p>These are some of the projects I'm currently working on.</p>
+                            <p>Here are some of the client projects I have worked on.</p>
                         </div>
 
                         <div className="col-4">
-                            <span className="image fit"><img src={completeFarmer} alt="" /></span>
-                            <h3>Complete Farmer</h3>
-                            <p>Complete Farmer is a farm management and crowdfarming platform that enables users to farm remotely.</p>
+                            <span className="image fit"><img src={nas} alt="" /></span>
+                            <h3>Nigerian Actuaries Society</h3>
+                            <p>Nigerian Actuarial Society (NAS)is the professional organization for actuaries in Nigeria established in 1986 for the advancement of actuarial knowledge.</p>
                             <ul className="actions">
-                                <li><a href="https://www.completefarmer.com" target="_blank" className="button">More</a></li>
+                                <li><a href="https://actuaries.org.ng" target="_blank" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={sfa} alt="" /></span>
-                            <h3>Scholarships For Africa</h3>
-                            <p>Scholarships For Africa is an online platform that connects african students to scholarship opportunities abroad.</p>
+                            <span className="image fit"><img src={ohcs} alt="" /></span>
+                            <h3>OHCS Online</h3>
+                            <p>OHCS Online is an online registration platform for Ghanaians who want to apply to become civil servants.</p>
                             <ul className="actions">
-                                <li><a href="http://www.scholarshipsforafrica.org" target="_blank" className="button">More</a></li>
+                                <li><a href="https://ohcsonline.com" target="_blank" className="button">More</a></li>
                             </ul>
                         </div>
                         <div className="col-4">
-                            <span className="image fit"><img src={gizzeo} alt="" /></span>
-                            <h3>Gizzeo Biodigester</h3>
-                            <p>A portable device that converts kitchen organic waste to methane gas for cooking in homes.</p>
+                            <span className="image fit"><img src={thon} alt="" /></span>
+                            <h3>The House of Nubian</h3>
+                            <p>The House of Nubian is a an international fashion house loated in dubai. They focus on elegant styles for the African woman.</p>
                             <ul className="actions">
-                                <li><a href="http://www.gizzeo.com" target="_blank" className="button">More</a></li>
+                                <li><a href="https://www.thehouseofnubian.com" target="_blank" className="button">More</a></li>
                             </ul>
                         </div>
 
